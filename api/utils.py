@@ -2,7 +2,7 @@ import json
 
 from py2neo import Graph
 
-graph = Graph("bolt://103.36.173.91:40008", username="neo4j", password="neo4j123")
+graph = Graph("bolt://localhost:7687", username="neo4j", password="neo4j")
 
 
 def create_new_di(real_word, li):
