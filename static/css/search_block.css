@@ -1,0 +1,97 @@
+    .outLine {
+        width: 802px;
+        /*border: 1px solid black;*/
+        margin: 0 auto;
+    }
+
+    .inner {
+        width: 710px;
+        height: 45px;
+        outline: none;
+        text-indent: 20px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        line-height: 40px;
+        font-size: 20px;
+        float: left;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .search {
+        height: 45px;
+        width: 120px;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        background-color: #4E62D9;
+        color: #fff;
+        font-size: 18px;
+        outline: none;
+        border-top-right-radius: 9px;
+        border-bottom-right-radius: 9px;
+    }
+
+    .show {
+        width: 710px;
+        /*background-color: gold;*/
+        /*margin-left: 350px;*/
+        margin-top: 0;
+        overflow: hidden;
+        border-right: 1px solid #C7C4CE;
+        border-left: 1px solid #C7C4CE;
+        border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+    }
+
+    .line {
+        height: 30px;
+        /*background-color: cyan;*/
+        line-height: 30px;
+        text-indent: 20px;
+        font-size: 16px;
+    }
+
+    .line:hover{
+        color:blue;
+    }
+
+    .line_bottom {
+        height: 30px;
+        /*background-color: cyan;*/
+        line-height: 30px;
+        text-indent: 20px;
+        font-size: 16px;
+        border-bottom: 1px solid #C7C4CE;
+        border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+    }
+
+    .line_bottom:hover{
+        color:blue;
+    }
+    /*搜索框整个大框*/
+    .box {
+        height: 45px;
+        width: 830px;
+        /*background-color: cyan;*/
+        margin: 50px auto;
+        font-size: 0;
+        border: 1px solid #C7C4CE;
+        margin-bottom: 0;
+        margin-top: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #home {
+        height:20px;
+        width:20px;
+        float: right;
+
+    }

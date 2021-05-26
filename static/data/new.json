@@ -1,0 +1,248 @@
+{
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ],
+            "series": [
+                {
+                    "type": "graph",
+                    "layout": "force",
+                    "symbolSize": 10,
+                    "circular": {
+                        "rotateLabel": false
+                    },
+                    "force": {
+                        "repulsion": 2000,
+                        "edgeLength": 50,
+                        "gravity": 0.2
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "roam": true,
+                    "draggable": false,
+                    "focusNodeAdjacency": true,
+                    "data": [
+                        {
+                            "name": "新浪体育",
+                            "symbolSize": 35,
+                            "draggable": "True",
+                            "value": 1875,
+                            "category": "新浪体育",
+                            "label": {
+                                "normal": {
+                                    "show": "True"
+                                }
+                            }
+                        },
+                                        {
+                            "name": "新浪",
+                            "symbolSize": 35,
+                            "draggable": "True",
+                            "value": 1875,
+                            "category": "新浪",
+                            "label": {
+                                "normal": {
+                                    "show": "True"
+                                }
+                            }
+                        },
+                        {
+                            "name": "罗昌平",
+                            "symbolSize": 20,
+                            "draggable": "False",
+                            "value": 58,
+                            "category": "罗昌平",
+                            "label": {
+                                "normal": {
+                                    "show": "True"
+                                }
+                            }
+                        },
+                        {
+                            "name": "重工组长于彦舒",
+                            "symbolSize": 20,
+                            "draggable": "False",
+                            "value": 6,
+                            "category": "重工组长于彦舒",
+                            "label": {
+                                "normal": {
+                                    "show": "True"
+                                }
+                            }
+                        },
+                        {
+                            "name": "Beijingold4",
+                            "symbolSize": 20,
+                            "draggable": "False",
+                            "value": 1,
+                            "category": "Beijingold4",
+                            "label": {
+                                "normal": {
+                                    "show": "True"
+                                }
+                            }
+                        },
+                        {
+                            "name": "阿根廷人小马",
+                            "symbolSize": 20,
+                            "draggable": "False",
+                            "value": 1,
+                            "category": "阿根廷人小马",
+                            "label": {
+                                "normal": {
+                                    "show": "True"
+                                }
+                            }
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "name": "阿根廷人小马"
+                        },
+                        {
+                            "name": "新浪体育"
+                        },
+                        {
+                            "name": "新浪"
+                        },
+                        {
+                            "name": "Beijingold4"
+                        },
+                        {
+                            "name": "重工组长于彦舒"
+                        },
+                        {
+                            "name": "罗昌平"
+                        },
+                        {
+                            "name": "中华龙会"
+                        }
+                    ],
+                    "edgeLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "edgeSymbol": [
+                        null,
+                        null
+                    ],
+                    "edgeSymbolSize": 10,
+                    "links": [
+                        {
+                            "source": "新浪体育",
+                            "target": "阿根廷人小马"
+                        },
+                        {
+                            "source": "新浪体育",
+                            "target": "Beijingold4"
+                        },
+                        {
+                            "source": "新浪体育",
+                            "target": "重工组长于彦舒"
+                        },
+                        {
+                            "source": "新浪体育",
+                            "target": "罗昌平"
+                        },
+                        {
+                            "source": "新浪",
+                            "target": "罗昌平"
+                        },
+                        {
+                            "source": "新浪体育",
+                            "target": "中华龙会"
+                        }
+                    ]
+                }
+            ],
+            "legend": [
+                {
+                    "data": [
+                        "阿根廷人小马",
+                        "新浪体育",
+                        "Beijingold4",
+                        "重工组长于彦舒",
+                        "罗昌平",
+                        "中华龙会"
+                    ],
+                    "selected": {
+                        "阿根廷人小马": true,
+                        "新浪体育": true,
+                        "Beijingold4": true,
+                        "重工组长于彦舒": true,
+                        "罗昌平": true,
+                        "中华龙会": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "title": [
+                {
+                    "text": "",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ]
+        }

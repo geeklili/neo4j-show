@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>实体搜索</title>
+        <script type="text/javascript" src="/static/js/echarts.min.js"></script>
+        <script src="/static/js/jquery-1.12.4.min.js"></script>
+    <script src="/static/js/search.js"></script>
+    <script src="/static/js/select.js"></script>
+    <link rel="stylesheet" href="/static/css/search_block.css">
+</head>
+
+
+<body>
+    <a href="/"><div style="float:right"><img id="home" src="/static/pic/home.jpg"  alt="主页"/></div></a>
+    <div class="outLine">
+        <div class="box" id="bbox">
+            <input class="inner" type="text" id="input" >
+            <a href="javaScript:search_entity()" style="text-decoration:none;color:black"><input class="search" type="button" value="实体查询"></a>
+        </div>
+
+        <div class="show"></div>
+
+    </div>
+
+    <div id="cfae9551bb05428a8d6b9b8909b3c314" class="chart-container" style="width:50%; height:500px;margin-left:22%;margin-top:30px">
+
+    </div>
+    <div id="kn-graph" style="background:#F00;color:FFF">
+        <script>
+            var chart_cfae9551bb05428a8d6b9b8909b3c314 = echarts.init(
+                document.getElementById('cfae9551bb05428a8d6b9b8909b3c314'), 'white', {renderer: 'canvas'});
+            var option_cfae9551bb05428a8d6b9b8909b3c314 = %%%%%;
+            chart_cfae9551bb05428a8d6b9b8909b3c314.setOption(option_cfae9551bb05428a8d6b9b8909b3c314);
+        </script>
+    </div>
+</body>
+</html>
