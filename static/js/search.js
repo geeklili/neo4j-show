@@ -9,7 +9,16 @@
 
                 $('input').on({
                         keyup : function(e){
-                            // console.log($(this).val()+'keyup')
+                                var obj =  document.getElementById("line_id")
+                                if (obj){
+                                        document.getElementById("bbox").setAttribute("style", "border:1px solid #4E62D9;border-bottom-left-radius: 0px;");
+                                }else{
+                                        document.getElementById("bbox").setAttribute("style", "border:1px solid #4E62D9");
+
+                                };
+                        },
+                        input : function(e){
+                            //console.log($(this).val()+'keyup')
                             $(".show").find("div").remove();
                             var entity = $(this).val();
 
@@ -33,26 +42,25 @@
 
 
                              entity_search = function (data, entity) {
+                                     document.getElementById("bbox").setAttribute("style", "border:1px solid #4E62D9");
                                      var listShow = eval(data)
                                      // var listShow = ['a','b','c'];
                                      for (var index = 0; index < listShow.length; index++) {
                                          var backword = listShow[index];
 
                                          if (listShow.length != index+1){
-                                             $everyLine = '<a href="/api/kn?entity_name=' + backword + '" style="text-decoration:none;color:black"><div class="line">' + backword + '</div></a>';
+                                             $everyLine = '<a href="/api/kn?entity_name=' + backword + '" style="text-decoration:none;color:black"><div class="line" id="line_id">' + backword + '</div></a>';
                                              $(".show").append($everyLine);
                                          }else{
-                                             $everyLine = '<a href="/api/kn?entity_name=' + backword + '" style="text-decoration:none;color:black"><div class="line_bottom">' + backword + '</div></a>';
+                                             $everyLine = '<a href="/api/kn?entity_name=' + backword + '" style="text-decoration:none;color:black"><div class="line_bottom" id="line_bottom_id">' + backword + '</div></a>';
                                              $(".show").append($everyLine);
                                              };
                                      };
 
                                      if (listShow.length > 0){
-                                         var obj = document.getElementById("bbox");
-                                         obj.setAttribute("style", "border-bottom-left-radius:0px !important");
+                                         document.getElementById("bbox").setAttribute("style", "border:1px solid #4E62D9;border-bottom-left-radius:0px");
                                      }else{
-                                         var obj = document.getElementById("bbox");
-                                         obj.setAttribute("style", "border-bottom-left-radius:9px !important");
+                                         document.getElementById("bbox").setAttribute("style", "border:1px solid #4E62D9;border-bottom-left-radius:9px");
                                      };
 
                              };

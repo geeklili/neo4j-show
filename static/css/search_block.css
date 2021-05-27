@@ -1,5 +1,5 @@
     .outLine {
-        width: 802px;
+        width: 800px;
         /*border: 1px solid black;*/
         margin: 0 auto;
     }
@@ -36,15 +36,18 @@
     }
 
     .show {
-        width: 710px;
+        width: 712px;
         /*background-color: gold;*/
         /*margin-left: 350px;*/
         margin-top: 0;
         overflow: hidden;
-        border-right: 1px solid #C7C4CE;
-        border-left: 1px solid #C7C4CE;
+        border-left: 1px solid #4E62D9
         border-bottom-left-radius: 9px;
         border-bottom-right-radius: 9px;
+    }
+
+    .line:hover{
+        color:blue;
     }
 
     .line {
@@ -53,11 +56,10 @@
         line-height: 30px;
         text-indent: 20px;
         font-size: 16px;
+        border-left: 1px solid #4E62D9;
+        border-right: 1px solid #4E62D9;
     }
 
-    .line:hover{
-        color:blue;
-    }
 
     .line_bottom {
         height: 30px;
@@ -65,7 +67,9 @@
         line-height: 30px;
         text-indent: 20px;
         font-size: 16px;
-        border-bottom: 1px solid #C7C4CE;
+        border-bottom: 1px solid #4E62D9;
+        border-left: 1px solid #4E62D9;
+        border-right: 1px solid #4E62D9;
         border-bottom-left-radius: 9px;
         border-bottom-right-radius: 9px;
     }

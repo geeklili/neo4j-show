@@ -12,6 +12,7 @@ class GetIndexGraph(Resource):
         # di = json.dumps(di)
         context_di = dict()
         context_di['new_di'] = di
+        context_di['entity_name'] = entity_name
         return make_response(render_template('search_graph.html', context=context_di))
 
     def post(self):

@@ -15,7 +15,7 @@
     <a href="/"><div style="float:right"><img id="home" src="/static/pic/home.jpg"  alt="主页"/></div></a>
     <div class="outLine">
         <div class="box" id="bbox">
-            <input class="inner" type="text" id="input" >
+            <input class="inner" type="text" id="input" onfocus="input_click()" onblur="loss_focus()" onmouseenter="get_mouse()" onmouseleave="loss_mouse()" value="{{context.entity_name}}">
             <a href="javaScript:search_entity()" style="text-decoration:none;color:black"><input class="search" type="button" value="实体查询"></a>
         </div>
 
