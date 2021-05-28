@@ -14,13 +14,12 @@
 
 <body>
 
-<div class="outLine">
+<div class="outLine" id="outLineId">
     <div class="box" id="bbox">
-        <input class="inner" type="text" id="input" onfocus="input_click()" onblur="loss_focus()" onmouseenter="get_mouse()" onmouseleave="loss_mouse()">
+        <input class="inner" type="text" id="input" onfocus="input_click()" onmouseenter="get_mouse()" onmouseleave="loss_mouse()" onblur="loss_focus()">
         <a href="javaScript:search_entity()" style="text-decoration:none;color:black"><input class="search" type="button" value="实体查询"></a>
     </div>
-    <div class="show"></div>
+    <div class="show" id="show_id" onmouseenter="in_div()" onmouseleave="out_div()"></div>
 </div>
 </body>
-
 </html>
